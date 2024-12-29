@@ -12,17 +12,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "6672576528 2073178010").split()))
+EVAL = list(map(int, getenv("EVAL", "6007883608 2073178010").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Baby_Music_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Nancy_music_robot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "♪ 𝐁ᴀʙʏ ✘ 𝐌ᴜꜱɪᴄ ™ ˹ғz˼")
+BOT_NAME = getenv("BOT_NAME" , "𝗡𝗮𝗻𝗰𝘆 𝗠𝘂𝘀𝗶𝗰")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "BABY_MUSIC_ASSISTANT")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NANCY1430")
 # ---------------------------------------------------------
 
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001555252137))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002212625062))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 2073178010))
+OWNER_ID = int(getenv("OWNER_ID", 6007883608))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
