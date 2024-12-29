@@ -9,7 +9,7 @@ from DAXXMUSIC.mongo.nightmodedb import nightdb,nightmode_on,nightmode_off,get_n
 
 
 CLOSE_CHAT = ChatPermissions(
-    can_send_messages=False,
+    can_send_messages=True,
     can_send_media_messages = False,
     can_send_other_messages = False,
     can_send_polls = False,
